@@ -1,0 +1,35 @@
+{
+  "name": "module-boilerplate-cli",
+  "version": "1.0.0",
+  "description": "Awesome sauce",
+  "bin": {
+    "module": "src/index.js"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/module-boilerplate-cli"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/module-boilerplate-cli/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/module-boilerplate-cli",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "execa": "^0.5.0",
+    "unzip": "^0.1.11"
+  }
+}
