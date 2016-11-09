@@ -5,7 +5,6 @@
 const program = require('commander');
 const pckg = require('../package.json');
 const execa = require('execa');
-const unzip = require('unzip');
 
 program.version(pckg.version, '-v, --version');
 
